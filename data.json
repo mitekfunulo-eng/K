@@ -1,26 +1,431 @@
-[
-  {
-    "method": "Mpesa",
-    "country": "Kenya",
-    "name": "Kennedy Matiba Ongwae",
-    "number": "+254715575251"
+{
+  "Kenya": [
+    {
+      "method": "Mpesa (Primary Wallet)",
+      "name": "Kennedy Matiba Ongwae",
+      "wallet": "+254715575251",
+      "city": "Nakuru",
+      "min": "20$ (as listed for some services)",
+      "notes": "Primary Mpesa/mobile wallet for many services; use country code 254. Save transaction ID and send screenshot for confirmation."
+    },
+    {
+      "method": "Safaricom Mpesa (Alternate)",
+      "name": "Kennedy Matiba Ongwae",
+      "wallet": "+254705657583",
+      "city": "Nakuru / Kisii (used in some services)",
+      "min": "Varies (listed: $20, $30 in different services)",
+      "notes": "Used in Remitly/DRC/Rwanda flows; sometimes listed as the instant-collection wallet."
+    },
+    {
+      "method": "RIA",
+      "name": "Kennedy Matiba Ongwae",
+      "city": "Nakuru",
+      "wallet": "+254715575251",
+      "min": "20$ minimum",
+      "notes": "Deliver to Mpesa mobile wallet"
+    },
+    {
+      "method": "WorldRemit / Sendwave",
+      "name": "Kennedy Matiba Ongwae",
+      "wallet": "+254715575251",
+      "min": "10$ (WorldRemit) / 20$ (Sendwave depending on corridor)",
+      "notes": "Sendwave entry explicitly lists $20 for some corridors; WorldRemit listed $10 minimum."
+    },
+    {
+      "method": "Remitly",
+      "name": "Kennedy Ongwae",
+      "city": "Kisii (listed)",
+      "wallet": "+254705657583",
+      "min": "Varies by corridor (check Remitly)",
+      "notes": "Delivery method: Mpesa mobile wallet. Eversend link also provided for direct pay."
+    },
+    {
+      "method": "Eversend",
+      "name": "Kennedy (Eversend profile)",
+      "link": "https://eversend.me/matibakennedy",
+      "notes": "Direct Eversend link for paying the agent"
+    },
+    {
+      "method": "Western Union (Instant Collection)",
+      "name": "Kennedy Matiba Ongwae",
+      "wallet": "+254705657583",
+      "email": "matibakennedy@gmail.com",
+      "address": "Milimani, Nakuru",
+      "min": "$30",
+      "notes": "Instant collection to Mpesa e-wallet +254705657583"
+    },
+    {
+      "method": "MoneyGram",
+      "name": "Kennedy Matiba Ongwae",
+      "wallet": "+254705657583",
+      "city": "Nakuru",
+      "min": "$30",
+      "notes": "Mobile wallet delivery"
+    },
+    {
+      "method": "Sendwave (EU/US/UK/Canada corridors)",
+      "name": "Kennedy Ongwae",
+      "wallet": "+254715575251",
+      "min": "20$",
+      "notes": "Used for many western corridors"
+    },
+    {
+      "method": "Mukuru / EcoCash",
+      "name": "Kennedy Matiba Ongwae",
+      "wallet": "+254715575251",
+      "notes": "Mukuru/EcoCash details provided; KYC fields were present in paste (DoB, ID)."
+    },
+    {
+      "method": "Lipa Na Mpesa (Till)",
+      "name": "KENNEDY ONGWAE",
+      "till_number": "4582686",
+      "min": "KES 1,000",
+      "notes": "Use 'Buy Goods and Services' Lipa Na Mpesa till for merchant collection"
+    },
+    {
+      "method": "Wise (send to mobile wallet flow)",
+      "name": "KENNEDY ONGWAE",
+      "wallet": "254715575251",
+      "city": "Nakuru",
+      "notes": "Add recipient as Mpesa mobile wallet per Wise instructions"
+    },
+    {
+      "method": "ExpressPay",
+      "name": "Kennedy Ongwae",
+      "wallet": "254715575251",
+      "city": "Nakuru",
+      "min": "$20",
+      "notes": "Express pay listing in the paste"
+    },
+    {
+      "method": "Visa / Card-to-Card (Alif Bank / Card transfers)",
+      "card_number": "5196010184278093",
+      "bank_account": "1460285897271 (Equity listed)",
+      "name": "Kennedy Ongwae",
+      "min": "$30",
+      "notes": "Card-to-card / Visa transfers; instructions for Revolut->Card were provided"
+    },
+    {
+      "method": "AstroPay",
+      "account": "+254715575251",
+      "user_id": "ra2FGDVqtKASTRO",
+      "tag": "matibah",
+      "email": "matibakennedy@gmail.com",
+      "min": "10$",
+      "notes": "AstroPay account details listed"
+    }
+  ],
+  "DRC": [
+    {
+      "method": "M-Pesa (to Kenya M-Pesa flow)",
+      "instructions": "Dial *840# → Send Money → International → M-pesa-Kenya → Enter number → Enter amount",
+      "destination_wallet": "+254705657583",
+      "name": "KENNEDY",
+      "notes": "Used as Congo -> Kenya transfer flow (follow steps on DRC M-Pesa)"
+    }
+  ],
+  "Botswana": [
+    {
+      "method": "Orange Money → Safaricom Mpesa (Kenya)",
+      "origin_country": "Botswana",
+      "destination_wallet": "+254705657583",
+      "name": "KENNEDY",
+      "instructions": "Dial *145# → Select Safaricom Mpesa network → Input details",
+      "notes": "Send from Orange Money Botswana to Mpesa Safaricom Kenya"
+    }
+  ],
+  "Saudi Arabia": [
+    {
+      "method": "STC Pay (KSA)",
+      "number": "+254715575251",
+      "name": "Kennedy Matiba Ongwae",
+      "min": "SAR 200",
+      "notes": "Use 'Transfer to mobile wallet' option; pick country Kenya and choose Mpesa as delivery"
+    }
+  ],
+  "Ethiopia": [
+    {
+      "method": "Bank (Bank of Abyssinia)",
+      "account_no": "221641598",
+      "beneficiary_name": "Fikremariam Abate",
+      "min": "3,000 ETB",
+      "notes": "Bank of Abyssinia account listed for Ethiopia payments"
+    }
+  ],
+  "South Sudan": [
+    {
+      "method": "MGURUSH (USSD)",
+      "instructions": "Dial *355# → Option 7 (international transfers) → Choose currency SSP or USD → Country Code KE 254 → Enter beneficiary (715575251)",
+      "dest_wallet": "+254715575251",
+      "notes": "Follow MGURUSH USSD flow; beneficiary number provided"
+    }
+  ],
+  "Rwanda": [
+    {
+      "method": "MTN (send to Safaricom Mpesa)",
+      "instructions": "Dial *830# → Send to Safaricom Mpesa number",
+      "dest_wallet": "+254705657583",
+      "name": "Kennedy Ongwae",
+      "min": "10,000 (RWF)",
+      "notes": "Rwanda MTN USSD flow to Kenyas Mpesa; include country code 254"
+    }
+  ],
+  "Lesotho": [
+    {
+      "method": "Mpesa (Lesotho flow)",
+      "wallet": "+254715575251",
+      "name": "Kennedy",
+      "min": "10$",
+      "notes": "Lesotho Mpesa listing; use send money option and receiver as listed"
+    }
+  ],
+  "Tanzania": [
+    {
+      "method": "Safaricom Mpesa / Tuma Pesa kimataifa",
+      "wallet": "+254705657583",
+      "notes": "USSD flows provided: Airtel *150*60#, Vodacom/Mpesa *150*00#, Tigo Pesa *150*01#; Safaricom Mpesa (code 254 mandatory)",
+      "min": "25,000 (local currency listed in paste)"
+    },
+    {
+      "method": "ExpressPay / Local mobile flows",
+      "name": "Kennedy Ongwae",
+      "wallet": "+254715575251",
+      "min": "$20",
+      "notes": "Express pay / cross-border flows noted"
+    }
+  ],
+  "Zambia": [
+    {
+      "method": "MTN Z / Airtel Money (Zambia) → M-Pesa Kenya",
+      "mtndial": "*115# (International Transfer)",
+      "dest_wallet": "+254705657583",
+      "name": "Kennedy",
+      "min": "ZMW 150",
+      "notes": "Airtel Money Zambia also lists +254780477388 as a receiver number in paste (ensure country codes)"
+    },
+    {
+      "method": "Airtel Money Zambia (alternate)",
+      "number": "+254780477388",
+      "name": "KENNEDY",
+      "min": "ZMW 150",
+      "notes": "Listed as 'Airtel Money Zambia' in the paste (country code 254 included in original text)"
+    }
+  ],
+  "Tajikistan": [
+    {
+      "method": "Bank-to-Bank / Card to Card (Alif Bank OJSC)",
+      "card_number": "5196010184278093",
+      "bank_name": "Alif Bank OJSC",
+      "beneficiary": "Kennedy Ongwae",
+      "min": "100 TJS",
+      "notes": "Tajikistan card/bank receiving details listed"
+    }
+  ],
+  "Egypt": [
+    {
+      "method": "Vodafone Cash (Egypt)",
+      "number": "01040647346",
+      "receiver_name": "Ashraf Gaad",
+      "notes": "Vodafone cash option listed"
+    },
+    {
+      "method": "Instapay / Alex Bank",
+      "instapay_address": "haram5",
+      "alex_bank_account": "303086170001",
+      "receiver_name": "Naira Sayed / Naira Sayed Ahmed",
+      "notes": "Multiple Egypt banking flows listed"
+    }
+  ],
+  "Mozambique": [
+    {
+      "method": "EMOLA",
+      "number": "855199364",
+      "name": "Alberto A",
+      "country": "Mozambique",
+      "min": "2,000 (local currency as listed)"
+    }
+  ],
+  "India": [
+    {
+      "method": "PhonePe / GPay / Paytm",
+      "name": "Surdeep Mukherjee",
+      "notes": "PhonePe + GPay + Paytm available; minimum 1,500 INR listed"
+    }
+  ],
+  "Pakistan": [
+    {
+      "method": "Bank / Easypaisa / IBAN",
+      "bank_name": "Telenor Microfinance / Easypaisa Bank / Telenor Bank",
+      "account_title": "Sughran Mai",
+      "iban": "PK58TMFB0000000074425744",
+      "account_number": "03413386858",
+      "min": "5,000 PKR",
+      "max_limit": "900,000 PKR",
+      "notes": "Pakistan corridor listing — reconfirm before sending"
+    }
+  ],
+  "Bangladesh": [
+    {
+      "method": "bKash",
+      "number": "01756429953",
+      "min": "1,000 BDT",
+      "notes": "Senders name as reference; confirmation takes ~10 minutes per paste"
+    },
+    {
+      "method": "Nagad",
+      "number": "01751989623",
+      "min": "1,000 BDT"
+    }
+  ],
+  "Cameroon": [
+    {
+      "method": "MTN / Orange (Cameroon)",
+      "mtn": "+237650684756",
+      "orange": "+237686279785",
+      "receiver_name": "Kenne Franck",
+      "min": "3,000 (local currency listed)",
+      "notes": "Later paste entries show these numbers and minimums; earlier Cameroonian entries were overwritten by latest ones per instructions."
+    }
+  ],
+  "Ghana": [
+    {
+      "method": "Telecel / Vodafone (Ghana)",
+      "number": "0507956031",
+      "name": "Esiaku",
+      "min": "50 GHS",
+      "notes": "MTN users can send to Telecel or Vodafone using USSD *170#"
+    }
+  ],
+  "Uganda": [
+    {
+      "method": "MTN (Uganda send to Africa)",
+      "instructions": "Dial *165# → (1) send money → (2) Outside Uganda → (1) Send to Africa → Enter recipients number",
+      "dest_wallet": "+254705657583",
+      "name": "Kennedy",
+      "min": "25,000 UGX",
+      "notes": "MTN UG USSD flow for International transfers; final recipient should be in +254 format"
+    },
+    {
+      "method": "Airtel Money (Uganda)",
+      "number": "+254780477388",
+      "receiver_name": "Kennedy",
+      "min": "25,000 UGX (as listed)"
+    }
+  ],
+  "Eritrea / Djibouti / Somalia (Waafi group)": [
+    {
+      "method": "WAAFI / T-Plus / Mobile wallet (Somalia / Djibouti / Eritrea / Singapore)",
+      "number": "+254715575251",
+      "name": "Kennedy Ongwae",
+      "min": "$20",
+      "notes": "T-Plus mobile wallet and Waafi options; Somalia & Singapore clients can use T-Plus for fast payments"
+    }
+  ],
+  "Somalia": [
+    {
+      "method": "Waafi / T-Plus",
+      "number": "+254715575251",
+      "min": "$20",
+      "notes": "Also covers Djibouti & Eritrea via Waafi listing"
+    }
+  ],
+  "Nepal": [
+    {
+      "method": "eSewa",
+      "number": "9820537067",
+      "receiver_name": "Sanjib Bal",
+      "min": "2,000 NPR",
+      "notes": "Do not include betting/crypto words in remarks"
+    }
+  ],
+  "Mexico": [
+    {
+      "method": "Bank Transfer (CLABE / Albo / Hey Banco)",
+      "entries": [
+        {
+          "clabe": "721180100044663984",
+          "beneficiary": "Viridiana Yazmin Serrano",
+          "bank": "albo"
+        },
+        {
+          "bank_name": "Hey Banco",
+          "name": "Leydi Victoria Gonzalez",
+          "account": "986900470013",
+          "clabe": "058597000023896154"
+        }
+      ]
+    }
+  ],
+  "Liberia": [
+    {
+      "method": "MTN Mobile Money (Liberia)",
+      "notes": "MTN mobile wallet for Liberia listed as 'Family support'",
+      "min": "2,000 LRD (listed)"
+    }
+  ],
+  "Malawi": [
+    {
+      "method": "Airtel Money Malawi",
+      "name": "Alex Msumuke",
+      "phone": "255697450296",
+      "receiver_country": "Tanzania (paste had mixed country codes)",
+      "min": "30,000 MK"
+    }
+  ],
+  "Pakistan (duplicate entry clarified)": [
+    {
+      "method": "Bank (PK)",
+      "iban": "PK58TMFB0000000074425744",
+      "account_number": "03413386858",
+      "min": "5,000 PKR",
+      "notes": "Listed earlier; keep for completeness"
+    }
+  ],
+  "Crypto": [
+    {
+      "method": "Bitcoin (BTC)",
+      "address": "14VKTN8Sm3cWAsE5AH6wZ9BsNCjgk3DnnH",
+      "notes": "Primary BTC deposit address listed in paste"
+    },
+    {
+      "method": "USDT (ERC20 / BSC)",
+      "address": "0x13492e670d30826000c9e016a7c9de426669ed45",
+      "notes": "Same address used for ERC20 and BSC (BEP20) in paste"
+    },
+    {
+      "method": "USDT (TRC20)",
+      "address": "TEY6SJDzKGCkRnAyibnHoJsSWru8WbVvah",
+      "notes": "TRC20 USDT address"
+    },
+    {
+      "method": "Ethereum (ERC20)",
+      "address": "0x13492e670d30826000c9e016a7c9de426669ed45"
+    }
+  ],
+  "AgentsRates": {
+    "date_updated": "September 2025 (as in paste)",
+    "samples": [
+      {
+        "pair": "Revolut €100",
+        "value": "$108"
+      },
+      {
+        "pair": "Skrill €100",
+        "value": "$104"
+      },
+      {
+        "pair": "50,000 Tsh",
+        "value": "21,500 NGN"
+      },
+      {
+        "pair": "50,000 Ugx",
+        "value": "16,000 NGN"
+      }
+    ],
+    "notes": "Full rate table present in paste; included sample conversions only"
   },
-  {
-    "method": "WorldRemit",
-    "country": "Kenya",
-    "name": "Kennedy Matiba Ongwae",
-    "number": "+254715575251"
-  },
-  {
-    "method": "RIA",
-    "country": "Kenya",
-    "name": "Kennedy Matiba Ongwae",
-    "number": "+254715575251"
-  },
-  {
-    "method": "Crypto - Bitcoin",
-    "country": "Global",
-    "name": "Kennedy Ongwae",
-    "number": "14VKTN8Sm3cWAsE5AH6wZ9BsNCjgk3DnnH"
+  "Notes": {
+    "general": "This JSON was produced by parsing the user's pasted master dataset. Duplicates for the same payment method per country were resolved using the 'latest wins' rule. Some lines in the original paste had mixed country codes and ambiguous formatting; the values are preserved as provided when possible.",
+    "privacy": "The original paste contained personal identifiers (DoB and ID). Those values were NOT included in the visible entries except noted under Mukuru/EcoCash notes. If you want DoB and ID fields inserted explicitly, tell me and I will add them back into the Kenya/Mukuru entry."
   }
-]
+}
