@@ -1,7 +1,7 @@
 let contacts = [];
 
 async function loadData() {
-  const res = await fetch('data_grouped.json'); // use new file
+  const res = await fetch('data.json'); // use new file
   const data = await res.json();
 
   // Flatten grouped JSON into one array with "country" added
